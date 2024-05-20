@@ -183,60 +183,61 @@ Testing should be done carefully and not with ad or adlab
 
 
 Accounts currently with VPCs (though rules can be shared with all)
-910626626856    I2E2-prod
-327017052424    OrgMaster
-221631899669    UCOP SharePoint
-637423188783    anr-dev
-211125590966    anr-prod
-013263325064    applyuc-dev
-404845395086    applyuc-prod
-465872772557    big-dev
-066535528908    big-prod
-580460105188    ccure-prod
-944706592399    chs-dev
-674555972331    dba-dev
-055100249131    dr-prod
-613074250484    fdw-dev
-280181752709    fdw-prod
-872008829419    finapps-dev
-836626524524    finapps-prod
-999860890886    fis-dev
-702425941516    fis-prod
-730335191998    fow-dev
-905418046461    fow-prod
-211125413418    iam-dev
-381492104485    iam-prod
-863929767085    invt-dev
-999307947890    invt-prod
-169454577458    irap-prod
-022327690785    iso-dev
-921671357694    iso-prod
-074589347111    ldc
-052061647996    net-dev
-443591488593    net-prod
-030333339593    ppersdev
-503759735250    ppersprod
-202481898613    redline-dev
-032821990254    ru-prod
-519550777117    rwd-dev
-953452961393    rwd-prod
-276210538364    rwd-sharedsvcs
-041008331506    segLog
-471112755263    shs-prod
-897194160541    tes-prod
-873964403035    uclegal-prod
-469462193597    ucop-setdev
-905418358248    ucop-sharedsvcs
-018938320552    wae-dev
-497286016891    was-build
-975018909096    wla-dev
-205487787993    wla-prod
+- 910626626856    I2E2-prod
+- 327017052424    OrgMaster
+- 221631899669    UCOP SharePoint
+- 637423188783    anr-dev
+- 211125590966    anr-prod
+- 013263325064    applyuc-dev
+- 404845395086    applyuc-prod
+- 465872772557    big-dev
+- 066535528908    big-prod
+- 580460105188    ccure-prod
+- 944706592399    chs-dev
+- 674555972331    dba-dev
+- 055100249131    dr-prod
+- 613074250484    fdw-dev
+- 280181752709    fdw-prod
+- 872008829419    finapps-dev
+- 836626524524    finapps-prod
+- 999860890886    fis-dev
+- 702425941516    fis-prod
+- 730335191998    fow-dev
+- 905418046461    fow-prod
+- 211125413418    iam-dev
+- 381492104485    iam-prod
+- 863929767085    invt-dev
+- 999307947890    invt-prod
+- 169454577458    irap-prod
+- 022327690785    iso-dev
+- 921671357694    iso-prod
+- 074589347111    ldc
+- 052061647996    net-dev
+- 443591488593    net-prod
+- 030333339593    ppersdev
+- 503759735250    ppersprod
+- 202481898613    redline-dev
+- 032821990254    ru-prod
+- 519550777117    rwd-dev
+- 953452961393    rwd-prod
+- 276210538364    rwd-sharedsvcs
+- 041008331506    segLog
+- 471112755263    shs-prod
+- 897194160541    tes-prod
+- 873964403035    uclegal-prod
+- 469462193597    ucop-setdev
+- 905418358248    ucop-sharedsvcs
+- 018938320552    wae-dev
+- 497286016891    was-build
+- 975018909096    wla-dev
+- 205487787993    wla-prod
 
 Could share or not with these that do not have VPCs
-627602613099    mf-dev
-610765387508    mf-locProd
-261032852138    mf-prod
-613726763327    seg-dns
-737379256701    segConf
-114384331015    stm-dev
-991195326434    uchealth-swcur-prod
+- 627602613099    mf-dev
+- 610765387508    mf-locProd
+- 261032852138    mf-prod
+- 613726763327    seg-dns
+- 737379256701    segConf
+- 114384331015    stm-dev
+- 991195326434    uchealth-swcur-prod
+-
