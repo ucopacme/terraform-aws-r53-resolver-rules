@@ -21,8 +21,8 @@ Name the rule after the type and domain name
 
 |Initial Rules as Examples  |
 |---------------------|
-| r53fwd-ad.ucop.edu     |
-| r53fwd-adlab.ucop.edu  |
+| r53fwd-ad     |
+| r53fwd-adlab  |
 
 ### domain_name
 
@@ -32,8 +32,8 @@ Must be the actual domain, and names under must be in or resolvable by UCOP NS h
 
 |Initial Examples  |
 |------------------|
-| ad.ucop.edu      |
-| adlab.ucop.edu   |
+| ad      |
+| adlab   |
 
 ### ram_name
 
@@ -41,8 +41,9 @@ Is the name for the share that will be seen in the console and these should be n
 
 |Initial Rules as Examples   |
 |----------------------------|
-| ram-r53fwd-ad.ucop.edu     |
-| ram-r53fwd-adlab.ucop.edu  |
+| ram-r53fwd-ad
+     |
+| ram-r53fwd-adlab  |
 
 ### vpc_id
 
@@ -149,23 +150,29 @@ module "r53-resolver-rules" {
   resolver_endpoint_id = aws_route53_resolver_endpoint.outbound.id
 
   rules = [
-    { rule_name   = "r53fwd-testzone1.ucop.edu"
+    { rule_name   = "r53fwd-testzone1
+"
       domain_name = "testzone.ucop.edu."
-      ram_name    = "ram-r53fwd-testzone1.ucop.edu"
+      ram_name    = "ram-r53fwd-testzone1
+"
       vpc_ids     = ["vpc-01b2959303cc120c8"]
       ips         = ["10.49.62.153", "128.48.216.10", "128.48.89.70", "128.48.89.71"]
       principals  = ["111111111111", "111111111112", "111111111113", "111111111114"]
     },
-    { rule_name   = "r53fwd-testzone2.ucop.edu"
+    { rule_name   = "r53fwd-testzone2
+"
       domain_name = "testzone.ucop.edu."
-      ram_name    = "ram-r53fwd-testzone1.ucop.edu"
+      ram_name    = "ram-r53fwd-testzone1
+"
       vpc_ids     = ["vpc-01b2959303cc120c8"]
       ips         = ["10.49.62.153", "128.48.216.10", "128.48.89.70", "128.48.89.71"]
       principals  = ["111111111111", "111111111112", "111111111113", "111111111114"]
     },
-    { rule_name   = "r53fwd-testzone3.ucop.edu"
+    { rule_name   = "r53fwd-testzone3
+"
       domain_name = "testzone.ucop.edu."
-      ram_name    = "ram-r53fwd-testzone1.ucop.edu"
+      ram_name    = "ram-r53fwd-testzone1
+"
       vpc_ids     = ["vpc-01b2959303cc120c8"]
       ips         = ["10.49.62.153", "128.48.216.10", "128.48.89.70", "128.48.89.71"]
       principals  = ["111111111111", "111111111112", "111111111113", "111111111114"]
